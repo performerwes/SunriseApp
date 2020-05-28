@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98EE0472244C50D100E6120A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EE0471244C50D100E6120A /* AppDelegate.swift */; };
+		98EE0474244C50D100E6120A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EE0473244C50D100E6120A /* SceneDelegate.swift */; };
+		98EE0476244C50D100E6120A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EE0475244C50D100E6120A /* ViewController.swift */; };
+		98EE0479244C50D100E6120A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EE0477244C50D100E6120A /* Main.storyboard */; };
+		98EE047B244C50D200E6120A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98EE047A244C50D200E6120A /* Assets.xcassets */; };
+		98EE047E244C50D200E6120A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EE047C244C50D200E6120A /* LaunchScreen.storyboard */; };
+		98EE0489244C50D300E6120A /* SunriseAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EE0488244C50D300E6120A /* SunriseAppTests.swift */; };
+		98EE0494244C50D300E6120A /* SunriseAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EE0493244C50D300E6120A /* SunriseAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98EE0485244C50D200E6120A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98EE0466244C50D100E6120A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98EE046D244C50D100E6120A;
+			remoteInfo = SunriseApp;
+		};
+		98EE0490244C50D300E6120A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98EE0466244C50D100E6120A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98EE046D244C50D100E6120A;
+			remoteInfo = SunriseApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98EE046E244C50D100E6120A /* SunriseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunriseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98EE0471244C50D100E6120A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98EE0473244C50D100E6120A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		98EE0475244C50D100E6120A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98EE0478244C50D100E6120A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98EE047A244C50D200E6120A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98EE047D244C50D200E6120A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98EE047F244C50D200E6120A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98EE0484244C50D200E6120A /* SunriseAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunriseAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98EE0488244C50D300E6120A /* SunriseAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunriseAppTests.swift; sourceTree = "<group>"; };
+		98EE048A244C50D300E6120A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98EE048F244C50D300E6120A /* SunriseAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunriseAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98EE0493244C50D300E6120A /* SunriseAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunriseAppUITests.swift; sourceTree = "<group>"; };
+		98EE0495244C50D300E6120A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98EE046B244C50D100E6120A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98EE0481244C50D200E6120A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98EE048C244C50D300E6120A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98EE0465244C50D100E6120A = {
+			isa = PBXGroup;
+			children = (
+				98EE0470244C50D100E6120A /* SunriseApp */,
+				98EE0487244C50D200E6120A /* SunriseAppTests */,
+				98EE0492244C50D300E6120A /* SunriseAppUITests */,
+				98EE046F244C50D100E6120A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98EE046F244C50D100E6120A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98EE046E244C50D100E6120A /* SunriseApp.app */,
+				98EE0484244C50D200E6120A /* SunriseAppTests.xctest */,
+				98EE048F244C50D300E6120A /* SunriseAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98EE0470244C50D100E6120A /* SunriseApp */ = {
+			isa = PBXGroup;
+			children = (
+				98EE0471244C50D100E6120A /* AppDelegate.swift */,
+				98EE0473244C50D100E6120A /* SceneDelegate.swift */,
+				98EE0475244C50D100E6120A /* ViewController.swift */,
+				98EE0477244C50D100E6120A /* Main.storyboard */,
+				98EE047A244C50D200E6120A /* Assets.xcassets */,
+				98EE047C244C50D200E6120A /* LaunchScreen.storyboard */,
+				98EE047F244C50D200E6120A /* Info.plist */,
+			);
+			path = SunriseApp;
+			sourceTree = "<group>";
+		};
+		98EE0487244C50D200E6120A /* SunriseAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				98EE0488244C50D300E6120A /* SunriseAppTests.swift */,
+				98EE048A244C50D300E6120A /* Info.plist */,
+			);
+			path = SunriseAppTests;
+			sourceTree = "<group>";
+		};
+		98EE0492244C50D300E6120A /* SunriseAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98EE0493244C50D300E6120A /* SunriseAppUITests.swift */,
+				98EE0495244C50D300E6120A /* Info.plist */,
+			);
+			path = SunriseAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98EE046D244C50D100E6120A /* SunriseApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98EE0498244C50D300E6120A /* Build configuration list for PBXNativeTarget "SunriseApp" */;
+			buildPhases = (
+				98EE046A244C50D100E6120A /* Sources */,
+				98EE046B244C50D100E6120A /* Frameworks */,
+				98EE046C244C50D100E6120A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunriseApp;
+			productName = SunriseApp;
+			productReference = 98EE046E244C50D100E6120A /* SunriseApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98EE0483244C50D200E6120A /* SunriseAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98EE049B244C50D300E6120A /* Build configuration list for PBXNativeTarget "SunriseAppTests" */;
+			buildPhases = (
+				98EE0480244C50D200E6120A /* Sources */,
+				98EE0481244C50D200E6120A /* Frameworks */,
+				98EE0482244C50D200E6120A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98EE0486244C50D200E6120A /* PBXTargetDependency */,
+			);
+			name = SunriseAppTests;
+			productName = SunriseAppTests;
+			productReference = 98EE0484244C50D200E6120A /* SunriseAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98EE048E244C50D300E6120A /* SunriseAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98EE049E244C50D300E6120A /* Build configuration list for PBXNativeTarget "SunriseAppUITests" */;
+			buildPhases = (
+				98EE048B244C50D300E6120A /* Sources */,
+				98EE048C244C50D300E6120A /* Frameworks */,
+				98EE048D244C50D300E6120A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98EE0491244C50D300E6120A /* PBXTargetDependency */,
+			);
+			name = SunriseAppUITests;
+			productName = SunriseAppUITests;
+			productReference = 98EE048F244C50D300E6120A /* SunriseAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98EE0466244C50D100E6120A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = wataru.endo;
+				TargetAttributes = {
+					98EE046D244C50D100E6120A = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					98EE0483244C50D200E6120A = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 98EE046D244C50D100E6120A;
+					};
+					98EE048E244C50D300E6120A = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 98EE046D244C50D100E6120A;
+					};
+				};
+			};
+			buildConfigurationList = 98EE0469244C50D100E6120A /* Build configuration list for PBXProject "SunriseApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98EE0465244C50D100E6120A;
+			productRefGroup = 98EE046F244C50D100E6120A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98EE046D244C50D100E6120A /* SunriseApp */,
+				98EE0483244C50D200E6120A /* SunriseAppTests */,
+				98EE048E244C50D300E6120A /* SunriseAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98EE046C244C50D100E6120A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EE047E244C50D200E6120A /* LaunchScreen.storyboard in Resources */,
+				98EE047B244C50D200E6120A /* Assets.xcassets in Resources */,
+				98EE0479244C50D100E6120A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98EE0482244C50D200E6120A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98EE048D244C50D300E6120A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98EE046A244C50D100E6120A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EE0476244C50D100E6120A /* ViewController.swift in Sources */,
+				98EE0472244C50D100E6120A /* AppDelegate.swift in Sources */,
+				98EE0474244C50D100E6120A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98EE0480244C50D200E6120A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EE0489244C50D300E6120A /* SunriseAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98EE048B244C50D300E6120A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EE0494244C50D300E6120A /* SunriseAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98EE0486244C50D200E6120A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98EE046D244C50D100E6120A /* SunriseApp */;
+			targetProxy = 98EE0485244C50D200E6120A /* PBXContainerItemProxy */;
+		};
+		98EE0491244C50D300E6120A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98EE046D244C50D100E6120A /* SunriseApp */;
+			targetProxy = 98EE0490244C50D300E6120A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98EE0477244C50D100E6120A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98EE0478244C50D100E6120A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98EE047C244C50D200E6120A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98EE047D244C50D200E6120A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98EE0496244C50D300E6120A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98EE0497244C50D300E6120A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98EE0499244C50D300E6120A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W72Y7QJTH;
+				INFOPLIST_FILE = SunriseApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.performerwes.SunriseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98EE049A244C50D300E6120A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W72Y7QJTH;
+				INFOPLIST_FILE = SunriseApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.performerwes.SunriseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98EE049C244C50D300E6120A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W72Y7QJTH;
+				INFOPLIST_FILE = SunriseAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.performerwes.SunriseAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunriseApp.app/SunriseApp";
+			};
+			name = Debug;
+		};
+		98EE049D244C50D300E6120A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W72Y7QJTH;
+				INFOPLIST_FILE = SunriseAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.performerwes.SunriseAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunriseApp.app/SunriseApp";
+			};
+			name = Release;
+		};
+		98EE049F244C50D300E6120A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W72Y7QJTH;
+				INFOPLIST_FILE = SunriseAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.performerwes.SunriseAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SunriseApp;
+			};
+			name = Debug;
+		};
+		98EE04A0244C50D300E6120A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W72Y7QJTH;
+				INFOPLIST_FILE = SunriseAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.performerwes.SunriseAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SunriseApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98EE0469244C50D100E6120A /* Build configuration list for PBXProject "SunriseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98EE0496244C50D300E6120A /* Debug */,
+				98EE0497244C50D300E6120A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98EE0498244C50D300E6120A /* Build configuration list for PBXNativeTarget "SunriseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98EE0499244C50D300E6120A /* Debug */,
+				98EE049A244C50D300E6120A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98EE049B244C50D300E6120A /* Build configuration list for PBXNativeTarget "SunriseAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98EE049C244C50D300E6120A /* Debug */,
+				98EE049D244C50D300E6120A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98EE049E244C50D300E6120A /* Build configuration list for PBXNativeTarget "SunriseAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98EE049F244C50D300E6120A /* Debug */,
+				98EE04A0244C50D300E6120A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98EE0466244C50D100E6120A /* Project object */;
+}
